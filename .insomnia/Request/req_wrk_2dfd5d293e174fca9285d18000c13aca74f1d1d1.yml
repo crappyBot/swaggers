@@ -1,0 +1,21 @@
+_id: req_wrk_2dfd5d293e174fca9285d18000c13aca74f1d1d1
+authentication: {}
+body: {}
+created: 1593010328429
+description: ""
+headers: []
+isPrivate: false
+metaSortKey: -1593010328429
+method: GET
+modified: 1593050587725
+name: Get user by user name
+parameters: []
+parentId: wrk_2dfd5d293e174fca9285d18000c13aca
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingFollowRedirects: global
+settingRebuildPath: true
+settingSendCookies: true
+settingStoreCookies: true
+type: Request
+url: "{{ base_url }}/user/{{ username }}"

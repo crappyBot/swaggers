@@ -1,0 +1,21 @@
+_id: req_wrk_2dfd5d293e174fca9285d18000c13aca38e8e88f
+authentication: {}
+body: {}
+created: 1593010328301
+description: ""
+headers: []
+isPrivate: false
+metaSortKey: -1593010328301
+method: DELETE
+modified: 1593050587698
+name: Delete user
+parameters: []
+parentId: wrk_2dfd5d293e174fca9285d18000c13aca
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingFollowRedirects: global
+settingRebuildPath: true
+settingSendCookies: true
+settingStoreCookies: true
+type: Request
+url: "{{ base_url }}/user/{{ username }}"

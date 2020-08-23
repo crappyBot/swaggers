@@ -1,0 +1,21 @@
+_id: req_wrk_2dfd5d293e174fca9285d18000c13aca740025cb
+authentication: {}
+body: {}
+created: 1593010328441
+description: ""
+headers: []
+isPrivate: false
+metaSortKey: -1593010328441
+method: GET
+modified: 1593050587736
+name: Logs out current logged in user session
+parameters: []
+parentId: wrk_2dfd5d293e174fca9285d18000c13aca
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingFollowRedirects: global
+settingRebuildPath: true
+settingSendCookies: true
+settingStoreCookies: true
+type: Request
+url: "{{ base_url }}/user/logout"

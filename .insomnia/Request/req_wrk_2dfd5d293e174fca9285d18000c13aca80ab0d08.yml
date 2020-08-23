@@ -1,0 +1,24 @@
+_id: req_wrk_2dfd5d293e174fca9285d18000c13aca80ab0d08
+authentication: {}
+body: {}
+created: 1593010328838
+description: ""
+headers: []
+isPrivate: false
+metaSortKey: -1593010328838
+method: GET
+modified: 1593050588043
+name: Finds Pets by status
+parameters:
+  - disabled: false
+    name: status
+    value: available
+parentId: wrk_2dfd5d293e174fca9285d18000c13aca
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingFollowRedirects: global
+settingRebuildPath: true
+settingSendCookies: true
+settingStoreCookies: true
+type: Request
+url: "{{ base_url }}/pet/findByStatus"
