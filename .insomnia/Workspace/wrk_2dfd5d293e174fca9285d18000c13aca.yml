@@ -1,0 +1,9 @@
+_id: wrk_2dfd5d293e174fca9285d18000c13aca
+created: 1593010297926
+description: Monthly expence trackering application. Imports excel sheet data
+  for each month and stores them in database
+modified: 1593050588180
+name: Expense tracker 1.0.0
+parentId: null
+scope: spec
+type: Workspace
